@@ -16,4 +16,4 @@ public class Departments
     [Precision(10, 2)]
     public double Budget { get; set; }
     public ICollection<Professors> Professors { get; set; } = null!;
-}
+}   
