@@ -1,0 +1,6 @@
+﻿Kolos_Test.sln
+obj/
+*.idea/
+Properties/
+config/
+bin/
