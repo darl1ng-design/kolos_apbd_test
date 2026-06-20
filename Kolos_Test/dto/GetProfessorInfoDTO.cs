@@ -21,7 +21,7 @@ public class CoursesDTO
 
 public class EnrollmentsDTO
 {
-    public double grade { get; set; }
+    public double? grade { get; set; }
     public string status { get; set; }
     public StudentDTO student { get; set; }
 }

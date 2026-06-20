@@ -49,8 +49,8 @@ public class DatabaseContext : DbContext
 
         modelBuilder.Entity<Students>().HasData(new List<Students>()
         {
-           new Students() {StudentId = 1, FirstName = "cwel", LastName = "cwelisko", Email = "Cwelisko@chuj.pl", EnrollmentId = 1},
-           new Students() {StudentId = 2, FirstName = "pedal", LastName = "pedalski", Email = "pedal@cwel.pl", EnrollmentId = 2}
+           new Students() {StudentId = 1, FirstName = "cwel", LastName = "cwelisko", Email = "Cwelisko@chuj.pl", EnrollmentYear = 1},
+           new Students() {StudentId = 2, FirstName = "pedal", LastName = "pedalski", Email = "pedal@cwel.pl", EnrollmentYear= 2}
         });
 
     }

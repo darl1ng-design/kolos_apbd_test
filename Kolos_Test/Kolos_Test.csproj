@@ -15,12 +15,4 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.9" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="controllers\" />
-      <Folder Include="Data\" />
-      <Folder Include="dto\" />
-      <Folder Include="exceptions\" />
-      <Folder Include="services\" />
-    </ItemGroup>
-
 </Project>
